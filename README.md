@@ -1,5 +1,5 @@
 
-# Laravel 5.1 unixODBC driver
+# Laravel 5.2 unixODBC driver
 
 ## Description
 This package can be used in conjunction with unixodbc to connect to sql server from a Linux host server.
@@ -8,7 +8,7 @@ This package can be used in conjunction with unixodbc to connect to sql server f
 This package is meant to work with an odbc.ini file. You will need to install and configure Microsoft unixodbc driver for Linux.
 You can read how to do that here: http://jacksondean.net/connecting-to-microsoft-sql-server-with-php-from-centos-6-x7-x/
 
-To Install this in your Laravel 5.1 app, open composer.json and add:
+To Install this in your Laravel 5.2 app, open composer.json and add:
 
 ```json
  "require": {
