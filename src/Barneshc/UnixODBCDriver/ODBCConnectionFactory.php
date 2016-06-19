@@ -36,7 +36,7 @@ class ODBCConnectionFactory extends ConnectionFactory
      *
      * @throws \InvalidArgumentException
      */
-    protected function createConnection($driver, PDO $connection, $database, $prefix = '', array $config = [])
+    protected function createConnection($driver, PDO $connection, $database, $prefix = '', array $config = Array)
     {
         if ($this->container->bound($key = "db.connection.{$driver}")) {
             return $this->container->make($key, [$connection, $database, $prefix, $config]);
