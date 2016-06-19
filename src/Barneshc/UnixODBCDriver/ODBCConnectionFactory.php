@@ -2,6 +2,7 @@
 
 namespace Barneshc\UnixODBCDriver;
 
+use PDO;
 use Barneshc\UnixODBCDriver\Connectors\ODBCConnector;
 use Barneshc\UnixODBCDriver\ODBCConnection;
 use Illuminate\Contracts\Container\Container;
