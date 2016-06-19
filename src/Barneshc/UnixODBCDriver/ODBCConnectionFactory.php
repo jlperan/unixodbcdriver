@@ -2,12 +2,12 @@
 
 namespace Barneshc\UnixODBCDriver;
 
-use PDO;
+
 use Barneshc\UnixODBCDriver\Connectors\ODBCConnector;
 use Barneshc\UnixODBCDriver\ODBCConnection;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Database\Connectors\ConnectionFactory;
-//use Illuminate\Database\Connectors\MySqlConnector;
+use Illuminate\Database\Connectors\MySqlConnector;
 use Illuminate\Database\Connectors\PostgresConnector;
 use Illuminate\Database\Connectors\SQLiteConnector;
 use Illuminate\Database\Connectors\SqlServerConnector;
